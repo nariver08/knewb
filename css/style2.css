@@ -1766,7 +1766,7 @@ a:hover {
   .top .insights__main--info .txt {
     line-height: 1.5rem;
     padding: 0.9375rem 0.875rem 1.125rem;
-    height: 12rem;
+    height: 16rem;
   }
 }
 
@@ -2216,6 +2216,11 @@ form{
   width: 75rem;
   margin:0 auto;
 }
+@media (max-width: 750px) {
+  form{
+    width: 100%;
+  }
+}
 .item{
   overflow: hidden;
   margin-bottom: 20px;
@@ -2232,12 +2237,17 @@ form{
   .label{
     font-size: 0.5em;
     margin-right: 1rem;
-    width: 6rem;
+    width: 10rem;
   }
 }
 .inputs{
   float: left;
   width:300px;
+}
+@media (max-width: 750px) {
+  .inputs{
+    width: 100%;
+  }
 }
 input[type="text"],input[type="email"]{
   border: solid 1px #aaa;
