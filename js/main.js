@@ -13,7 +13,7 @@
     }, 3000);
   }
 
-  const images = document.querySelectorAll('.kv-pc__video img');
+  const images = document.querySelectorAll('.kv-pc_video img');
   let currentIndex = 0;
 
   play();
@@ -32,7 +32,7 @@
     }, 3000);
   }
   
-  const images = document.querySelectorAll('.kv-sp__video img');
+  const images = document.querySelectorAll('.kv-sp_video img');
   let currentIndex = 0;
   
   play();
